@@ -1,0 +1,791 @@
+@misc{gauthier_cgnn_2024,
+  author = {Vincent Gauthier},
+  year = {2024},
+  publisher = {Réseaux et Services de Télécommunications de Télécom SudParis},
+  title = {NET 4103: Complex Networks}
+}
+
+@article{yin_deep_2017,
+	title = {A Deep Learning Approach for Intrusion Detection Using Recurrent Neural Networks},
+	volume = {5},
+	rights = {https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/{OAPA}.html},
+	issn = {2169-3536},
+	doi = {10.1109/ACCESS.2017.2762418},
+	abstract = {Intrusion detection plays an important role in ensuring information security, and the key technology is to accurately identify various attacks in the network. In our study, we explore how to model an intrusion detection system based on deep learning, and we propose a deep learning approach for intrusion detection using recurrent neural networks ({RNN}-{IDS}). Moreover, we study the performance of the model in binary classification and multiclass classification, and the number of neurons and different learning rate impacts on the performance of the proposed model. We compare it with those of J48, Artificial Neural Network, Random Forest, Support Vector Machine and other machine learning methods proposed by previous researchers on the benchmark dataset. The experimental results show that {RNN}-{IDS} is very suitable for modelling a classification model with high accuracy and that its performance is superior to that of traditional machine learning classification methods in both binary and multiclass classification. The {RNN}-{IDS} model improves the accuracy of the intrusion detection and provides a new research method for intrusion detection.},
+	pages = {21954--21961},
+	journaltitle = {{IEEE} Access},
+	shortjournal = {{IEEE} Access},
+	author = {Yin, Chuanlong and Zhu, Yuefei and Fei, Jinlong and He, Xinzheng},
+	date = {2017},
+	langid = {english},
+}
+
+
+@inproceedings{jiang_anomaly_2019,
+	location = {Norfolk, {VA}, {USA}},
+	title = {Anomaly Detection with Graph Convolutional Networks for Insider Threat and Fraud Detection},
+	rights = {https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/{IEEE}.html},
+	isbn = {978-1-72814-280-7},
+	doi = {10.1109/MILCOM47813.2019.9020760},
+	abstract = {Anomaly detection generally involves the extraction of features from entities’ or users’ properties, and the design of anomaly detection models using machine learning or deep learning algorithms. However, only considering entities’ property information could lead to high false positives. We posit the importance of also considering connections or relationships between entities in the detecting of anomalous behaviors and associated threat groups. Therefore, in this paper, we design a {GCN} (graph convolutional networks) based anomaly detection model to detect anomalous behaviors of users and malicious threat groups. The {GCN} model could characterize entities’ properties and structural information between them into graphs. This allows the {GCN} based anomaly detection model to detect both anomalous behaviors of individuals and associated anomalous groups. We then evaluate the proposed model using a real-world insider threat data set. The results show that the proposed model outperforms several state-of-art baseline methods (i.e., random forest, logistic regression, {SVM}, and {CNN}). Moreover, the proposed model can also be applied to other anomaly detection applications.},
+	eventtitle = {{MILCOM} 2019 - 2019 {IEEE} Military Communications Conference ({MILCOM})},
+	pages = {109--114},
+	booktitle = {{MILCOM} 2019 - 2019 {IEEE} Military Communications Conference ({MILCOM})},
+	publisher = {{IEEE}},
+	author = {Jiang, Jianguo and Chen, Jiuming and Gu, Tianbo and Choo, Kim-Kwang Raymond and Liu, Chao and Yu, Min and Huang, Weiqing and Mohapatra, Prasant},
+	date = {2019-11},
+	langid = {english},
+}
+
+@article{node2vec,
+  author       = {Aditya Grover and
+                  Jure Leskovec},
+  title        = {node2vec: Scalable Feature Learning for Networks},
+  journal      = {CoRR},
+  volume       = {abs/1607.00653},
+  year         = {2016},
+  eprinttype    = {arXiv},
+  eprint       = {1607.00653},
+  timestamp    = {Mon, 13 Aug 2018 16:48:14 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/GroverL16.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{gnnvis,
+author = {Jin, Zhihua and Wang, Yong and Wang, Qianwen and Ming, Yao and Ma, Tengfei and Qu, Huamin},
+year = {2020},
+month = {11},
+pages = {},
+title = {GNNVis: A Visual Analytics Approach for Prediction Error Diagnosis of Graph Neural Networks}
+}
+
+@inproceedings{zugner_adversarial_2018,
+	title = {Adversarial Attacks on Neural Networks for Graph Data},
+	doi = {10.1145/3219819.3220078},
+	abstract = {Deep learning models for graphs have achieved strong performance for the task of node classification. Despite their proliferation, currently there is no study of their robustness to adversarial attacks. Yet, in domains where they are likely to be used, e.g. the web, adversaries are common. Can deep learning models for graphs be easily fooled? In this work, we introduce the first study of adversarial attacks on attributed graphs, specifically focusing on models exploiting ideas of graph convolutions. In addition to attacks at test time, we tackle the more challenging class of poisoning/causative attacks, which focus on the training phase of a machine learning model. We generate adversarial perturbations {targetcilansNsgifoicdtaehtioen} node’s features and the graph structure, thus, taking the dependencies between instances in account. Moreover, we ensure that the perturbations remain unnoticeable by preserving important data characteristics. To cope with the underlying discrete domain we propose an efficient algorithm Nettack exploiting incremental computations. Our experimental study shows that accuracy of node classification significantly drops even when performing only few perturbations. Even more, our attacks are transferable: the learned attacks generalize to other state-of-the-art node classification models and unsupervised approaches, and likewise are successful even when only limited knowledge about the graph is given.},
+	pages = {2847--2856},
+	booktitle = {Proceedings of the 24th {ACM} {SIGKDD} International Conference on Knowledge Discovery \& Data Mining},
+	author = {Zügner, Daniel and Akbarnejad, Amir and Günnemann, Stephan},
+	date = {2018-07-19},
+	langid = {english},
+	eprinttype = {arxiv},
+	eprint = {1805.07984 [cs, stat]},
+	keywords = {Computer Science - Machine Learning, Computer Science - Cryptography and Security, Statistics - Machine Learning},
+}
+
+@misc{bojchevski_adversarial_2019,
+	title = {Adversarial Attacks on Node Embeddings via Graph Poisoning},
+	abstract = {The goal of network representation learning is to learn low-dimensional node embeddings that capture the graph structure and are useful for solving downstream tasks. However, despite the proliferation of such methods, there is currently no study of their robustness to adversarial attacks. We provide the ﬁrst adversarial vulnerability analysis on the widely used family of methods based on random walks. We derive efﬁcient adversarial perturbations that poison the network structure and have a negative effect on both the quality of the embeddings and the downstream tasks. We further show that our attacks are transferable since they generalize to many models and are successful even when the attacker is restricted.},
+	number = {{arXiv}:1809.01093},
+	publisher = {{arXiv}},
+	author = {Bojchevski, Aleksandar and Günnemann, Stephan},
+	date = {2019-05-27},
+	langid = {english},
+	eprinttype = {arxiv},
+	eprint = {1809.01093 [cs, stat]},
+	keywords = {Computer Science - Machine Learning, Computer Science - Social and Information Networks, Computer Science - Cryptography and Security, Statistics - Machine Learning},
+}
+
+@misc{wang_attacking_2019,
+	title = {Attacking Graph-based Classification via Manipulating the Graph Structure},
+	abstract = {Graph-based classification methods are widely used for security analytics. Roughly speaking, graph-based classification methods include collective classification and graph neural network. Attacking a graph-based classification method enables an attacker to evade detection in security analytics. However, existing adversarial machine learning studies mainly focused on machine learning for non-graph data. Only a few recent studies touched adversarial graph-based classification methods. However, they focused on graph neural network, leaving collective classification largely unexplored.},
+	number = {{arXiv}:1903.00553},
+	publisher = {{arXiv}},
+	author = {Wang, Binghui and Gong, Neil Zhenqiang},
+	date = {2019-08-12},
+	langid = {english},
+	eprinttype = {arxiv},
+	eprint = {1903.00553 [cs]},
+	keywords = {Computer Science - Cryptography and Security},
+}
+
+@misc{ma_towards_2021,
+	title = {Towards More Practical Adversarial Attacks on Graph Neural Networks},
+	abstract = {We study the black-box attacks on graph neural networks ({GNNs}) under a novel and realistic constraint: attackers have access to only a subset of nodes in the network, and they can only attack a small number of them. A node selection step is essential under this setup. We demonstrate that the structural inductive biases of {GNN} models can be an effective source for this type of attacks. Speciﬁcally, by exploiting the connection between the backward propagation of {GNNs} and random walks, we show that the common gradient-based white-box attacks can be generalized to the black-box setting via the connection between the gradient and an importance score similar to {PageRank}. In practice, we ﬁnd attacks based on this importance score indeed increase the classiﬁcation loss by a large margin, but they fail to signiﬁcantly increase the mis-classiﬁcation rate. Our theoretical and empirical analyses suggest that there is a discrepancy between the loss and mis-classiﬁcation rate, as the latter presents a diminishing-return pattern when the number of attacked nodes increases. Therefore, we propose a greedy procedure to correct the importance score that takes into account of the diminishing-return pattern. Experimental results show that the proposed procedure can signiﬁcantly increase the mis-classiﬁcation rate of common {GNNs} on real-world data without access to model parameters nor predictions4.},
+	number = {{arXiv}:2006.05057},
+	publisher = {{arXiv}},
+	author = {Ma, Jiaqi and Ding, Shuangrui and Mei, Qiaozhu},
+	date = {2021-10-26},
+	langid = {english},
+	eprinttype = {arxiv},
+	eprint = {2006.05057 [cs, stat]},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning},
+}
+
+@misc{venturi_problem_2024,
+	title = {Problem space structural adversarial attacks for Network Intrusion Detection Systems based on Graph Neural Networks},
+	abstract = {Machine Learning ({ML}) algorithms have become increasingly popular for supporting Network Intrusion Detection Systems ({NIDS}). Nevertheless, extensive research has shown their vulnerability to adversarial attacks, which involve subtle perturbations to the inputs of the models aimed at compromising their performance. Recent proposals have effectively leveraged Graph Neural Networks ({GNN}) to produce predictions based also on the structural patterns exhibited by intrusions to enhance the detection robustness. However, the adoption of {GNN}-based {NIDS} introduces new types of risks. In this paper, we propose the first formalization of adversarial attacks specifically tailored for {GNN} in network intrusion detection. Moreover, we outline and model the problem space constraints that attackers need to consider to carry out feasible structural attacks in real-world scenarios. As a final contribution, we conduct an extensive experimental campaign in which we launch the proposed attacks against state-of-the-art {GNN}-based {NIDS}. Our findings demonstrate the increased robustness of the models against classical feature-based adversarial attacks, while highlighting their susceptibility to structure-based attacks.},
+	number = {{arXiv}:2403.11830},
+	publisher = {{arXiv}},
+	author = {Venturi, Andrea and Stabili, Dario and Marchetti, Mirco},
+	date = {2024-04-23},
+	langid = {english},
+	eprinttype = {arxiv},
+	eprint = {2403.11830 [cs]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Cryptography and Security},
+}
+
+@misc{mu_hard_2021,
+	title = {A Hard Label Black-box Adversarial Attack Against Graph Neural Networks},
+	abstract = {Graph Neural Networks ({GNNs}) have achieved state-of-the-art performance in various graph structure related tasks such as node classification and graph classification. However, {GNNs} are vulnerable to adversarial attacks. Existing works mainly focus on attacking {GNNs} for node classification; nevertheless, the attacks against {GNNs} for graph classification have not been well explored. In this work, we conduct a systematic study on adversarial attacks against {GNNs} for graph classification via perturbing the graph structure. In particular, we focus on the most challenging attack, i.e., hard label black-box attack, where an attacker has no knowledge about the target {GNN} model and can only obtain predicted labels through querying the target model. To achieve this goal, we formulate our attack as an optimization problem, whose objective is to minimize the number of edges to be perturbed in a graph while maintaining the high attack success rate. The original optimization problem is intractable to solve, and we relax the optimization problem to be a tractable one, which is solved with theoretical convergence guarantee. We also design a coarse-grained searching algorithm and a query-efficient gradient computation algorithm to decrease the number of queries to the target {GNN} model. Our experimental results on three real-world datasets demonstrate that our attack can effectively attack representative {GNNs} for graph classification with less queries and perturbations. We also evaluate the effectiveness of our attack under two defenses: one is well-designed adversarial graph detector and the other is that the target {GNN} model itself is equipped with a defense to prevent adversarial graph generation. Our experimental results show that such defenses are not effective enough, which highlights more advanced defenses.},
+	number = {{arXiv}:2108.09513},
+	publisher = {{arXiv}},
+	author = {Mu, Jiaming and Wang, Binghui and Li, Qi and Sun, Kun and Xu, Mingwei and Liu, Zhuotao},
+	date = {2021-09-26},
+	langid = {english},
+	eprinttype = {arxiv},
+	eprint = {2108.09513 [cs]},
+	keywords = {Computer Science - Machine Learning, Computer Science - Cryptography and Security},
+}
+
+@misc{wang_bandits_2022,
+	title = {Bandits for Structure Perturbation-based Black-box Attacks to Graph Neural Networks with Theoretical Guarantees},
+	abstract = {Graph neural networks ({GNNs}) have achieved state-of-the-art performance in many graph-based tasks such as node classification and graph classification. However, many recent works have demonstrated that an attacker can mislead {GNN} models by slightly perturbing the graph structure. Existing attacks to {GNNs} are either under the less practical threat model where the attacker is assumed to access the {GNN} model parameters, or under the practical black-box threat model but consider perturbing node features that are shown to be not enough effective. In this paper, we aim to bridge this gap and consider black-box attacks to {GNNs} with structure perturbation as well as with theoretical guarantees. We propose to address this challenge through bandit techniques. Specifically, we formulate our attack as an online optimization with bandit feedback. This original problem is essentially {NP}-hard due to the fact that perturbing the graph structure is a binary optimization problem. We then propose an online attack based on bandit optimization which is proven to be \{sublinear\} to the query number \$T\$, i.e., \${\textbackslash}mathcal\{O\}({\textbackslash}sqrt\{N\}T{\textasciicircum}\{3/4\})\$ where \$N\$ is the number of nodes in the graph. Finally, we evaluate our proposed attack by conducting experiments over multiple datasets and {GNN} models. The experimental results on various citation graphs and image graphs show that our attack is both effective and efficient. Source code is available at{\textasciitilde}{\textbackslash}url\{https://github.com/Metaoblivion/Bandit\_GNN\_Attack\}},
+	number = {{arXiv}:2205.03546},
+	publisher = {{arXiv}},
+	author = {Wang, Binghui and Li, Youqi and Zhou, Pan},
+	date = {2022-05-07},
+	langid = {english},
+	eprinttype = {arxiv},
+	eprint = {2205.03546 [cs]},
+	keywords = {Computer Science - Machine Learning, Computer Science - Cryptography and Security, Computer Science - Computer Vision and Pattern Recognition},
+}
+
+@article{graph_book,
+author={Hamilton, William L.},
+title={Graph Representation Learning},
+journal={Synthesis Lectures on Artificial Intelligence and Machine Learning},
+volume={14},
+number={3},
+pages={1-159},
+publisher={Morgan and Claypool}
+} 
+
+@misc{temple_lecture,
+  title={Attacking Graph-Based Classification without
+Changing Existing Connections},
+  autor={Xuening, Xu and Xiaojiang, Du and Qiang, Zeng},
+  url={https://www.acsac.org/2020/files/web/7b-5_attacking_graph-based_classification_without_changing_existing_connections-slides.pdf},
+  date = {2020-12-7},
+  publisher = {ACSAC 2020}
+}
+
+@misc{liu_revisiting_2024,
+	title = {Revisiting Edge Perturbation for Graph Neural Network in Graph Data Augmentation and Attack},
+	abstract = {Edge perturbation is a basic method to modify graph structures. It can be categorized into two veins based on their effects on the performance of graph neural networks ({GNNs}), i.e., graph data augmentation and attack. Surprisingly, both veins of edge perturbation methods employ the same operations, yet yield opposite effects on {GNNs}’ accuracy. A distinct boundary between these methods in using edge perturbation has never been clearly defined. Consequently, inappropriate perturbations may lead to undesirable outcomes, necessitating precise adjustments to achieve desired effects. Therefore, questions of “why edge perturbation has a two-faced effect?” and “what makes edge perturbation flexible and effective?” still remain unanswered.},
+	number = {{arXiv}:2403.07943},
+	publisher = {{arXiv}},
+	author = {Liu, Xin and Zhang, Yuxiang and Wu, Meng and Yan, Mingyu and He, Kun and Yan, Wei and Pan, Shirui and Ye, Xiaochun and Fan, Dongrui},
+	date = {2024-03-10},
+	langid = {english},
+	eprinttype = {arxiv},
+	eprint = {2403.07943 [cs]},
+	keywords = {Computer Science - Cryptography and Security, Computer Science - Machine Learning},
+}
+
+@misc{chen_survey_2022,
+	title = {A Survey of Adversarial Learning on Graphs},
+	abstract = {Deep learning models on graphs have achieved remarkable performance in various graph analysis tasks, e.g., node classiﬁcation, link prediction, and graph clustering. However, they expose uncertainty and unreliability against the well-designed inputs, i.e., adversarial examples. Accordingly, a line of studies has emerged for both attack and defense addressed in different graph analysis tasks, leading to the arms race in graph adversarial learning. Despite the booming works, there still lacks a uniﬁed problem deﬁnition and a comprehensive review. To bridge this gap, we investigate and summarize the existing works on graph adversarial learning tasks systemically. Speciﬁcally, we survey and unify the existing works w.r.t. attack and defense in graph analysis tasks, and give appropriate deﬁnitions and taxonomies at the same time. Besides, we emphasize the importance of related evaluation metrics, investigate and summarize them comprehensively. Hopefully, our works can provide a comprehensive overview and offer insights for the relevant researchers. Latest advances in graph adversarial learning are summarized in our {GitHub} repository https://github.com/{EdisonLeeeee}/Graph-Adversarial-Learning.},
+	number = {{arXiv}:2003.05730},
+	publisher = {{arXiv}},
+	author = {Chen, Liang and Li, Jintang and Peng, Jiaying and Xie, Tao and Cao, Zengxu and Xu, Kun and He, Xiangnan and Zheng, Zibin and Wu, Bingzhe},
+	date = {2022-04-05},
+	langid = {english},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Machine Learning, Statistics - Machine Learning},
+}
+
+@article{chen_link_2018,
+      title={Link Prediction Adversarial Attack}, 
+      author={Jinyin Chen and Ziqiang Shi and Yangyang Wu and Xuanheng Xu and Haibin Zheng},
+      year={2018},
+      eprint={1810.01110},
+      archivePrefix={arXiv},
+      primaryClass={physics.soc-ph}
+}
+
+@article{sun_poisoning_2028,
+  author = {Sun, Mingjie and Tang, Jian and Li, Huichen and Li, Bo and Xiao, Chaowei and Chen, Yao and Song, Dawn},
+  year = {2018},
+  month = {10},
+  pages = {},
+  title = {Data Poisoning Attack against Unsupervised Node Embedding Methods}
+}
+
+@article{ma_attacking_2019,
+      title={Attacking Graph Convolutional Networks via Rewiring}, 
+      author={Yao Ma and Suhang Wang and Tyler Derr and Lingfei Wu and Jiliang Tang},
+      year={2019},
+      eprint={1906.03750},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@article{sun_survey_2022,
+   title={Adversarial Attack and Defense on Graph Data: A Survey},
+   ISSN={2326-3865},
+   url={http://dx.doi.org/10.1109/TKDE.2022.3201243},
+   DOI={10.1109/tkde.2022.3201243},
+   journal={IEEE Transactions on Knowledge and Data Engineering},
+   publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+   author={Sun, Lichao and Dou, Yingtong and Yang, Carl and Zhang, Kai and Wang, Ji and Yu, Philip S. and He, Lifang and Li, Bo},
+   year={2022},
+   pages={1–20} }
+
+@article{zugner_adversarial_2024,
+      title={Adversarial Attacks on Graph Neural Networks via Meta Learning}, 
+      author={Daniel Zügner and Stephan Günnemann},
+      year={2024},
+      eprint={1902.08412},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@article{wang_attack_2020,
+      title={Attack Graph Convolutional Networks by Adding Fake Nodes}, 
+      author={Xiaoyun Wang and Minhao Cheng and Joe Eaton and Cho-Jui Hsieh and Felix Wu},
+      year={2020},
+      eprint={1810.10751},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@article{dai_adversarial_2018,
+      title={Adversarial Attack on Graph Structured Data}, 
+      author={Hanjun Dai and Hui Li and Tian Tian and Xin Huang and Lin Wang and Jun Zhu and Le Song},
+      year={2018},
+      eprint={1806.02371},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@article{chen_fast_2018,
+      title={Fast Gradient Attack on Network Embedding}, 
+      author={Jinyin Chen and Yangyang Wu and Xuanheng Xu and Yixian Chen and Haibin Zheng and Qi Xuan},
+      year={2018},
+      eprint={1809.02797},
+      archivePrefix={arXiv},
+      primaryClass={physics.soc-ph}
+}
+
+@article{yu_unsupervised_2019,
+      title={Unsupervised Euclidean Distance Attack on Network Embedding}, 
+      author={Shanqing Yu and Jun Zheng and Jinhuan Wang and Jian Zhang and Lihong Chen and Qi Xuan and Jinyin Chen and Dan Zhang and Qingpeng Zhang},
+      year={2019},
+      eprint={1905.11015},
+      archivePrefix={arXiv},
+      primaryClass={cs.SI}
+}
+
+@article{bose_generalizable_2020,
+      title={Generalizable Adversarial Attacks with Latent Variable Perturbation Modelling}, 
+      author={Avishek Joey Bose and Andre Cianflone and William L. Hamilton},
+      year={2020},
+      eprint={1905.10864},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@article{waniek_attack_2018,
+      title={Attack Tolerance of Link Prediction Algorithms: How to Hide Your Relations in a Social Network}, 
+      author={Marcin Waniek and Kai Zhou and Yevgeniy Vorobeychik and Esteban Moro and Tomasz P. Michalak and Talal Rahwan},
+      year={2018},
+      eprint={1809.00152},
+      archivePrefix={arXiv},
+      primaryClass={cs.SI}
+}
+
+@article{wu_adversarial_2019,
+      title={Adversarial Examples on Graph Data: Deep Insights into Attack and Defense}, 
+      author={Huijun Wu and Chen Wang and Yuriy Tyshetskiy and Andrew Docherty and Kai Lu and Liming Zhu},
+      year={2019},
+      eprint={1903.01610},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@article{zhu_robust_2019,
+author = {Zhu, Dingyuan and Zhang, Ziwei and Cui, Peng and Zhu, Wenwu},
+title = {Robust Graph Convolutional Networks Against Adversarial Attacks},
+year = {2019},
+isbn = {9781450362016},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+doi = {10.1145/3292500.3330851},
+abstract = {Graph Convolutional Networks (GCNs) are an emerging type of neural network model on graphs which have achieved state-of-the-art performance in the task of node classification. However, recent studies show that GCNs are vulnerable to adversarial attacks, i.e. small deliberate perturbations in graph structures and node attributes, which poses great challenges for applying GCNs to real world applications. How to enhance the robustness of GCNs remains a critical open problem. To address this problem, we propose Robust GCN (RGCN), a novel model that "fortifies'' GCNs against adversarial attacks. Specifically, instead of representing nodes as vectors, our method adopts Gaussian distributions as the hidden representations of nodes in each convolutional layer. In this way, when the graph is attacked, our model can automatically absorb the effects of adversarial changes in the variances of the Gaussian distributions. Moreover, to remedy the propagation of adversarial attacks in GCNs, we propose a variance-based attention mechanism, i.e. assigning different weights to node neighborhoods according to their variances when performing convolutions. Extensive experimental results demonstrate that our proposed method can effectively improve the robustness of GCNs. On three benchmark graphs, our RGCN consistently shows a substantial gain in node classification accuracy compared with state-of-the-art GCNs against various adversarial attack strategies.},
+booktitle = {Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining},
+pages = {1399–1407},
+numpages = {9},
+keywords = {robustness, graph convolutional networks, deep learning, adversarial attacks},
+location = {Anchorage, AK, USA},
+series = {KDD '19}
+}
+
+@inproceedings{tang_transferring_2020, 
+  series={WSDM ’20},
+   title={Transferring Robustness for Graph Neural Network Against Poisoning Attacks},
+   url={http://dx.doi.org/10.1145/3336191.3371851},
+   DOI={10.1145/3336191.3371851},
+   booktitle={Proceedings of the 13th International Conference on Web Search and Data Mining},
+   publisher={ACM},
+   author={Tang, Xianfeng and Li, Yandong and Sun, Yiwei and Yao, Huaxiu and Mitra, Prasenjit and Wang, Suhang},
+   year={2020},
+   month=jan, collection={WSDM ’20} 
+}
+
+@article{ioannidis_edge_2019,
+      title={Edge Dithering for Robust Adaptive Graph Convolutional Networks}, 
+      author={Vassilis N. Ioannidis and Georgios B. Giannakis},
+      year={2019},
+      eprint={1910.09590},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@article{xu_topology_2019,
+      title={Topology Attack and Defense for Graph Neural Networks: An Optimization Perspective}, 
+      author={Kaidi Xu and Hongge Chen and Sijia Liu and Pin-Yu Chen and Tsui-Wei Weng and Mingyi Hong and Xue Lin},
+      year={2019},
+      eprint={1906.04214},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@article{sun_virtual_2020,
+      title={Virtual Adversarial Training on Graph Convolutional Networks in Node Classification}, 
+      author={Ke Sun and Zhouchen Lin and Hantao Guo and Zhanxing Zhu},
+      year={2020},
+      eprint={1902.11045},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@article{feng_graph_2019,
+      title={Graph Adversarial Training: Dynamically Regularizing Based on Graph Structure}, 
+      author={Fuli Feng and Xiangnan He and Jie Tang and Tat-Seng Chua},
+      year={2019},
+      eprint={1902.08226},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@article{chen_adversarial_2019,
+      title={Can Adversarial Network Attack be Defended?}, 
+      author={Jinyin Chen and Yangyang Wu and Xiang Lin and Qi Xuan},
+      year={2019},
+      eprint={1903.05994},
+      archivePrefix={arXiv},
+      primaryClass={cs.SI}
+}
+
+@article{deng_batch_2019,
+      title={Batch Virtual Adversarial Training for Graph Convolutional Networks}, 
+      author={Zhijie Deng and Yinpeng Dong and Jun Zhu},
+      year={2019},
+      eprint={1902.09192},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@inproceedings{he_adversarial_2018, series={SIGIR ’18},
+   title={Adversarial Personalized Ranking for Recommendation},
+   url={http://dx.doi.org/10.1145/3209978.3209981},
+   DOI={10.1145/3209978.3209981},
+   booktitle={The 41st International ACM SIGIR Conference on Research &amp; Development in Information Retrieval},
+   publisher={ACM},
+   author={He, Xiangnan and He, Zhankui and Du, Xiaoyu and Chua, Tat-Seng},
+   year={2018},
+   month=jun, collection={SIGIR ’18} 
+}
+
+@inproceedings{zugner_certifiable_2019, series={KDD ’19},
+   title={Certifiable Robustness and Robust Training for Graph Convolutional Networks},
+   url={http://dx.doi.org/10.1145/3292500.3330905},
+   DOI={10.1145/3292500.3330905},
+   booktitle={Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining},
+   publisher={ACM},
+   author={Zügner, Daniel and Günnemann, Stephan},
+   year={2019},
+   month=jul, collection={KDD ’19} 
+}
+
+@article{bojchevski_certifiable_2019,
+      title={Certifiable Robustness to Graph Perturbations}, 
+      author={Aleksandar Bojchevski and Stephan Günnemann},
+      year={2019},
+      eprint={1910.14356},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@article{jin_power_2021,
+      title={Power up! Robust Graph Convolutional Network via Graph Powering}, 
+      author={Ming Jin and Heng Chang and Wenwu Zhu and Somayeh Sojoudi},
+      year={2021},
+      eprint={1905.10029},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@article{xu_powerful_2019,
+      title={How Powerful are Graph Neural Networks?}, 
+      author={Keyulu Xu and Weihua Hu and Jure Leskovec and Stefanie Jegelka},
+      year={2019},
+      eprint={1810.00826},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@article{zhang_comparing_2019,
+  title = {Y. Zhang, S. Khan, and M. Coates, “Comparing and detecting adversarial attacks for graph deep learning,},
+  author = {Y. Zhang and S. Khan and M. Coates},
+  year = {2019},
+  publisher = {ICLR}
+}
+
+@article{ioannidis_graphsac_2019,
+      title={GraphSAC: Detecting anomalies in large-scale graphs}, 
+      author={Vassilis N. Ioannidis and Dimitris Berberidis and Georgios B. Giannakis},
+      year={2019},
+      eprint={1910.09589},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@inproceedings{hou_alphacyber_2019,
+author = {Hou, Shifu and Fan, Yujie and Zhang, Yiming and Ye, Yanfang and Lei, Jingwei and Wan, Wenqiang and Wang, Jiabin and Xiong, Qi and Shao, Fudong},
+title = {αCyber: Enhancing Robustness of Android Malware Detection System against Adversarial Attacks on Heterogeneous Graph based Model},
+year = {2019},
+isbn = {9781450369763},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3357384.3357875},
+doi = {10.1145/3357384.3357875},
+abstract = {The explosive growth and increasing sophistication of Android malware call for new defensive techniques that are capable of protecting mobile users against novel threats. To combat the evolving Android malware attacks, systems of HinDroid and AiDroid have demonstrated the success of heterogeneous graph (HG) based classifiers in Android malware detection; however, their success may also incentivize attackers to defeat HG based models to bypass the detection. By far, there has no work on adversarial attack and/or defense on HG data. In this paper, we explore the robustness of HG based model in Android malware detection at the first attempt. In particular, based on a generic HG based classifier, (1) we first present a novel yet practical adversarial attack model (named HG-Attack) on HG data by considering Android malware attackers' current capabilities and knowledge; (2) to effectively combat the adversarial attacks on HG, we then propose a resilient yet elegant defense paradigm (named Rad-HGC) to enhance robustness of HG based classifier in Android malware detection. Promising experimental results based on the large-scale and real sample collections from Tencent Security Lab demonstrate the effectiveness of our developed system αCyber, which integrates our proposed defense model Rad-HGC that is resilient against practical adversarial malware attacks on the HG data performed by HG-Attack.},
+booktitle = {Proceedings of the 28th ACM International Conference on Information and Knowledge Management},
+pages = {609–618},
+numpages = {10},
+keywords = {node classification, heterogeneous graph (hg), android malware detection, adversarial attack and defense on hg},
+location = {Beijing, China},
+series = {CIKM '19}
+}
+
+@poster{majed_spectral_2024,
+ title = {Spectral Analysis for Attack Detection },
+ author = {Majed, Jaber and Boutry, Nicolas and Parrend, Pierre},
+ year = {2024},
+ publisher = {RESSI}
+}
+
+@article{gilmer_neural_2017,
+      title={Neural Message Passing for Quantum Chemistry}, 
+      author={Justin Gilmer and Samuel S. Schoenholz and Patrick F. Riley and Oriol Vinyals and George E. Dahl},
+      year={2017},
+      eprint={1704.01212},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@article{chung_empirical_2014,
+      title={Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling}, 
+      author={Junyoung Chung and Caglar Gulcehre and KyungHyun Cho and Yoshua Bengio},
+      year={2014},
+      eprint={1412.3555},
+      archivePrefix={arXiv},
+      primaryClass={cs.NE}
+}
+
+@article{bilot_graph_2023,
+	title = {Graph Neural Networks for Intrusion Detection: A Survey},
+	volume = {11},
+	rights = {https://creativecommons.org/licenses/by-nc-nd/4.0/},
+	issn = {2169-3536},
+	doi = {10.1109/ACCESS.2023.3275789},
+	shorttitle = {Graph Neural Networks for Intrusion Detection},
+	abstract = {Cyberattacks represent an ever-growing threat that has become a real priority for most organizations. Attackers use sophisticated attack scenarios to deceive defense systems in order to access private data or cause harm. Machine Learning ({ML}) and Deep Learning ({DL}) have demonstrate impressive results for detecting cyberattacks due to their ability to learn generalizable patterns from flat data. However, flat data fail to capture the structural behavior of attacks, which is essential for effective detection. Contrarily, graph structures provide a more robust and abstract view of a system that is difficult for attackers to evade. Recently, Graph Neural Networks ({GNNs}) have become successful in learning useful representations from the semantic provided by graph-structured data. Intrusions have been detected for years using graphs such as network flow graphs or provenance graphs, and learning representations from these structures can help models understand the structural patterns of attacks, in addition to traditional features. In this survey, we focus on the applications of graph representation learning to the detection of network-based and host-based intrusions, with special attention to {GNN} methods. For both network and host levels, we present the graph data structures that can be leveraged and we comprehensively review the state-of-the-art papers along with the used datasets. Our analysis reveals that {GNNs} are particularly efficient in cybersecurity, since they can learn effective representations without requiring any external domain knowledge. We also evaluate the robustness of these techniques based on adversarial attacks. Finally, we discuss the strengths and weaknesses of {GNN}-based intrusion detection and identify future research directions.},
+	pages = {49114--49139},
+	journaltitle = {{IEEE} Access},
+	shortjournal = {{IEEE} Access},
+	author = {Bilot, Tristan and Madhoun, Nour El and Agha, Khaldoun Al and Zouaoui, Anis},
+	date = {2023},
+	langid = {english},
+}
+
+@article{zhang_practical_2022,
+author="Zhang, Bonan
+and Li, Jingjin
+and Chen, Chao
+and Lee, Kyungmi
+and Lee, Ickjai",
+editor="Meng, Weizhi
+and Conti, Mauro",
+title="A Practical Botnet Traffic Detection System Using GNN",
+booktitle="Cyberspace Safety and Security",
+year="2022",
+publisher="Springer International Publishing",
+address="Cham",
+pages="66--78",
+abstract="Botnet attacks have now become a major source of cyberattacks. How to detect botnet traffic quickly and efficiently is a current problem for most enterprises. To solve this, we have built a plug-and-play botnet detection system using graph neural network algorithms. The system detects botnets by identifying the network topology and is very good at detecting botnets with different structures. Moreover, the system helps researchers to visualise which nodes in the network are at risk of botnets through a graphical interface.",
+isbn="978-3-030-94029-4"
+}
+
+@misc{google_report_2023,
+  title = {HTTPS encryption on the web – Google Transparency Report.},
+  url = {https://transparencyreport.google.com/https/overview?hl=en,},
+  year = {2023}
+}
+
+@article{zhou_automating_2020,
+      title={Automating Botnet Detection with Graph Neural Networks}, 
+      author={Jiawei Zhou and Zhiying Xu and Alexander M. Rush and Minlan Yu},
+      year={2020},
+      eprint={2003.06344},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR}
+}
+
+@article{zhao_heterogenous_2020,
+author = {Zhao, Jun and Liu, Xudong and Yan, Qiben and Li, Bo and Shao, Minglai and Peng, Hao},
+year = {2020},
+month = {06},
+pages = {},
+title = {Multi-Attributed Heterogeneous Graph Convolutional Network for Bot Detection},
+volume = {537},
+journal = {Information Sciences},
+doi = {10.1016/j.ins.2020.03.113}
+}
+
+@article{yongyi_denial_2022,
+  author={Cao, Yongyi and Jiang, Hao and Deng, Yuchuan and Wu, Jing and Zhou, Pan and Luo, Wei},
+  journal={IEEE Transactions on Dependable and Secure Computing}, 
+  title={Detecting and Mitigating DDoS Attacks in SDN Using Spatial-Temporal Graph Convolutional Network}, 
+  year={2022},
+  volume={19},
+  number={6},
+  pages={3855-3872},
+  keywords={Denial-of-service attack;Computer crime;Whitelists;Telemetry;Feature extraction;Distributed databases;Delays;DDoS;data plane programmable SDN;in-band network telemetry;spatial-temporal graph convolutional network},
+  doi={10.1109/TDSC.2021.3108782}
+}
+
+@article{lo_xgbot_2023,
+      title={XG-BoT: An Explainable Deep Graph Neural Network for Botnet Detection and Forensics}, 
+      author={Wai Weng Lo and Gayan K. Kulatilleke and Mohanad Sarhan and Siamak Layeghy and Marius Portmann},
+      year={2023},
+      eprint={2207.09088},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR}
+}
+
+@article{yuzhen_graphddos_2022,
+  author={Li, Yuzhen and Li, Renjie and Zhou, Zhou and Guo, Jiang and Yang, Wei and Du, Meijie and Liu, Qingyun},
+  booktitle={2022 IEEE 25th International Conference on Computer Supported Cooperative Work in Design (CSCWD)}, 
+  title={GraphDDoS: Effective DDoS Attack Detection Using Graph Neural Networks}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1275-1280},
+  keywords={Deep learning;Conferences;Denial-of-service attack;Collaborative work;Graph neural networks;Computer crime;Periodic structures;DDoS/DoS attack detection;graph neural network;endpoint traffic graph;deep learning},
+  doi={10.1109/CSCWD54268.2022.9776097}
+}
+
+@article{lo_egraphsage_2022,
+	title = {E-{GraphSAGE}: A Graph Neural Network based Intrusion Detection System for {IoT}},
+	doi = {10.1109/NOMS54207.2022.9789878},
+	shorttitle = {E-{GraphSAGE}},
+	abstract = {This paper presents a new Network Intrusion Detection System ({NIDS}) based on Graph Neural Networks ({GNNs}). {GNNs} are a relatively new sub-ﬁeld of deep neural networks, which can leverage the inherent structure of graph-based data. Training and evaluation data for {NIDSs} are typically represented as ﬂow records, which can naturally be represented in a graph format. In this paper, we propose E-{GraphSAGE}, a {GNN} approach that allows capturing both the edge features of a graph as well as the topological information for network intrusion detection in {IoT} networks. To the best of our knowledge, our proposal is the ﬁrst successful, practical, and extensively evaluated approach of applying {GNNs} on the problem of network intrusion detection for {IoT} using ﬂow-based data. Our extensive experimental evaluation on four recent {NIDS} benchmark datasets shows that our approach outperforms the state-of-the-art in terms of key classiﬁcation metrics, which demonstrates the potential of {GNNs} in network intrusion detection, and provides motivation for further research.},
+	pages = {1--9},
+	booktitle = {{NOMS} 2022-2022 {IEEE}/{IFIP} Network Operations and Management Symposium},
+	author = {Lo, Wai Weng and Layeghy, Siamak and Sarhan, Mohanad and Gallagher, Marcus and Portmann, Marius},
+	date = {2022-04-25},
+	langid = {english},
+	eprinttype = {arxiv},
+	eprint = {2103.16329 [cs]},
+	keywords = {Computer Science - Machine Learning, Computer Science - Artificial Intelligence, Computer Science - Cryptography and Security, Computer Science - Networking and Internet Architecture},
+}
+
+@article{chang_graphbased_2021,
+      title={Graph-based Solutions with Residuals for Intrusion Detection: the Modified E-GraphSAGE and E-ResGAT Algorithms}, 
+      author={Liyan Chang and Paula Branco},
+      year={2021},
+      eprint={2111.13597},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR}
+}
+
+@article{jin_eminbatch_2022,
+author = {Lan, Jin and Lu, Jia and Wan, Guo and Wang, Yuan and Huang, Chen and Zhang, Shi and Huang, Yu and Ma, Jin},
+year = {2022},
+month = {07},
+pages = {},
+title = {E-minBatch GraphSAGE: An Industrial Internet Attack Detection Model},
+volume = {2022},
+journal = {Security and Communication Networks},
+doi = {10.1155/2022/5363764}
+}
+
+@article{caville_anomale_2022,
+   title={Anomal-E: A self-supervised network intrusion detection system based on graph neural networks},
+   volume={258},
+   ISSN={0950-7051},
+   url={http://dx.doi.org/10.1016/j.knosys.2022.110030},
+   DOI={10.1016/j.knosys.2022.110030},
+   journal={Knowledge-Based Systems},
+   publisher={Elsevier BV},
+   author={Caville, Evan and Lo, Wai Weng and Layeghy, Siamak and Portmann, Marius},
+   year={2022},
+   month=dec, pages={110030} 
+ }
+
+@article{bowman_detecting_2020,
+author = {Benjamin Bowman and Craig Laprade and Yuede Ji and H. Howie Huang},
+title = {Detecting Lateral Movement in Enterprise Computer Networks with Unsupervised Graph {AI}},
+booktitle = {23rd International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2020)},
+year = {2020},
+isbn = {978-1-939133-18-2},
+address = {San Sebastian},
+pages = {257--268},
+url = {https://www.usenix.org/conference/raid2020/presentation/bowman},
+publisher = {USENIX Association},
+month = oct
+}
+
+@article{ramesh_2022,
+  author={Paudel, Ramesh and Huang, H. Howie},
+  booktitle={NOMS 2022-2022 IEEE/IFIP Network Operations and Management Symposium}, 
+  title={Pikachu: Temporal Walk Based Dynamic Graph Embedding for Network Anomaly Detection}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-7},
+  keywords={Network topology;Image edge detection;Neural networks;Anomaly detection;Open source software;Network Anomaly;Graph Neural Network;Anomaly Detection},
+  doi={10.1109/NOMS54207.2022.9789921}
+}
+
+@article{fucheng_mltracer_2020,
+  author={Liu, Fucheng and Wen, Yu and Wu, Yanna and Liang, Shuangshuang and Jiang, Xihe and Meng, Dan},
+  booktitle={2020 IEEE 19th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)}, 
+  title={MLTracer: Malicious Logins Detection System via Graph Neural Network}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={715-726},
+  keywords={Privacy;Conferences;Graph neural networks;Real-time systems;Security;Data mining;Convolutional neural networks;malicious logins detection;lateral movement;graph neural network;co-attention mechanism},
+  doi={10.1109/TrustCom50675.2020.00099}
+}
+
+@article{yong_lmtracer_2021,
+author = {Fang, Yong and Wang, Congshuang and Zhiyang, Fang and Huang, Cheng},
+year = {2021},
+month = {12},
+pages = {},
+title = {LMTracker: Lateral Movement Path Detection based on Heterogeneous Graph Embedding},
+volume = {474},
+journal = {Neurocomputing},
+doi = {10.1016/j.neucom.2021.12.026}
+}
+
+@articles{xiaoqing_hetglm_2022,
+  author={Sun, Xiaoqing and Yang, Jiahai},
+  booktitle={2022 IEEE International Performance, Computing, and Communications Conference (IPCCC)}, 
+  title={HetGLM: Lateral Movement Detection by Discovering Anomalous Links with Heterogeneous Graph Neural Network}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={404-411},
+  keywords={Training;Performance evaluation;Prototypes;Authentication;Data collection;Graph neural networks;Data models;Lateral Movement Detection;Anomalous Link Detection;Graph Neural Network},
+  doi={10.1109/IPCCC55026.2022.9894347}
+}
+
+@article{isaiah_euler_2023,
+author = {King, Isaiah J. and Huang, H. Howie},
+title = {Euler: Detecting Network Lateral Movement via Scalable Temporal Link Prediction},
+year = {2023},
+issue_date = {August 2023},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {26},
+number = {3},
+issn = {2471-2566},
+doi = {10.1145/3588771},
+abstract = {Lateral movement is a key stage of system compromise used by advanced persistent threats. Detecting it is no simple task. When network host logs are abstracted into discrete temporal graphs, the problem can be reframed as anomalous edge detection in an evolving network. Research in modern deep graph learning techniques has produced many creative and complicated models for this task. However, as is the case in many machine learning fields, the generality of models is of paramount importance for accuracy and scalability during training and inference. In this article, we propose a formalized approach to this problem with a framework we call Euler. It consists of a model-agnostic graph neural network stacked upon a model-agnostic sequence encoding layer such as a recurrent neural network. Models built according to the Euler framework can easily distribute their graph convolutional layers across multiple machines for large performance improvements. Additionally, we demonstrate that Euler-based models are as good, or better, than every state-of-the-art approach to anomalous link detection and prediction that we tested. As anomaly-based intrusion detection systems, our models efficiently identified anomalous connections between entities with high precision and outperformed all other unsupervised techniques for anomalous lateral movement detection. Additionally, we show that as a piece of a larger anomaly detection pipeline, Euler models perform well enough for use in real-world systems. With more advanced, yet still lightweight, alerting mechanisms ingesting the embeddings produced by Euler models, precision is boosted from 0.243, to 0.986 on real-world network traffic.},
+journal = {ACM Trans. Priv. Secur.},
+month = {jun},
+articleno = {35},
+numpages = {36},
+keywords = {temporal graph, graph neural network, Lateral movement detection}
+}
+
+@article{yang_hrnn_2024,
+	title = {{HRNN}: Hypergraph Recurrent Neural Network for Network Intrusion Detection},
+	volume = {22},
+	issn = {1570-7873, 1572-9184},
+	doi = {10.1007/s10723-024-09767-1},
+	shorttitle = {{HRNN}},
+	pages = {52},
+	number = {2},
+	journaltitle = {Journal of Grid Computing},
+	shortjournal = {J Grid Computing},
+	author = {Yang, Zhe and Ma, Zitong and Zhao, Wenbo and Li, Lingzhi and Gu, Fei},
+	date = {2024-06},
+	langid = {english},
+}
+
+@misc{lv_heterogeneous_2021,
+	title = {A Heterogeneous Graph Learning Model for Cyber-Attack Detection},
+	abstract = {A cyber-attack is a malicious attempt by experienced hackers to breach the target information system. Usually, the cyber-attacks are characterized as hybrid {TTPs} (Tactics, Techniques, and Procedures) and long-term adversarial behaviors, making the traditional intrusion detection methods ineffective. Most existing cyber-attack detection systems are implemented based on manually designed rules by referring to domain knowledge (e.g., threat models, threat intelligences). However, this process is lack of intelligence and generalization ability. Aiming at this limitation, this paper proposes an intelligent cyber-attack detection method based on provenance data. To effective and efﬁcient detect cyber-attacks from a huge number of system events in the provenance data, we ﬁrstly model the provenance data by a heterogeneous graph to capture the rich context information of each system entities (e.g., process, ﬁle, socket, etc.), and learns a semantic vector representation for each system entity. Then, we perform online cyber-attack detection by sampling a small and compact local graph from the heterogeneous graph, and classifying the key system entities as malicious or benign. We conducted a series of experiments on two provenance datasets with real cyber-attacks. The experiment results show that the proposed method outperforms other learning based detection models, and has competitive performance against state-of-the-art rule based cyber-attack detection systems.},
+	number = {{arXiv}:2112.08986},
+	publisher = {{arXiv}},
+	author = {Lv, Mingqi and Dong, Chengyu and Chen, Tieming and Zhu, Tiantian and Song, Qijie and Fan, Yuan},
+	date = {2021-12-16},
+	langid = {english},
+	eprinttype = {arxiv},
+	eprint = {2112.08986 [cs]},
+	keywords = {Computer Science - Machine Learning, Computer Science - Cryptography and Security},
+}
+
+@misc{fu_detecting_2023,
+	title = {Detecting {Unknown} {Encrypted} {Malicious} {Traffic} in {Real} {Time} via {Flow} {Interaction} {Graph} {Analysis}},
+	url = {http://arxiv.org/abs/2301.13686},
+	abstract = {Nowadays trafﬁc on the Internet has been widely encrypted to protect its conﬁdentiality and privacy. However, trafﬁc encryption is always abused by attackers to conceal their malicious behaviors. Since the encrypted malicious trafﬁc has similar features to benign ﬂows, it can easily evade traditional detection methods. Particularly, the existing encrypted malicious trafﬁc detection methods are supervised and they rely on the prior knowledge of known attacks (e.g., labeled datasets). Detecting unknown encrypted malicious trafﬁc in real time, which does not require prior domain knowledge, is still an open problem.},
+	language = {en},
+	urldate = {2024-05-26},
+	publisher = {arXiv},
+	author = {Fu, Chuanpu and Li, Qi and Xu, Ke},
+	month = jan,
+	year = {2023},
+	note = {arXiv:2301.13686 [cs]},
+	keywords = {Computer Science - Cryptography and Security},
+	file = {Fu et al. - 2023 - Detecting Unknown Encrypted Malicious Traffic in R.pdf:/home/Racoon/Zotero/storage/8M2NA8GZ/Fu et al. - 2023 - Detecting Unknown Encrypted Malicious Traffic in R.pdf:application/pdf},
+}
+
+@misc{pujol-perich_unveiling_2021,
+	title = {Unveiling the potential of Graph Neural Networks for robust Intrusion Detection},
+	abstract = {The last few years have seen an increasing wave of attacks with serious economic and privacy damages, which evinces the need for accurate Network Intrusion Detection Systems ({NIDS}). Recent works propose the use of Machine Learning ({ML}) techniques for building such systems (e.g., decision trees, neural networks). However, existing {ML}-based {NIDS} are barely robust to common adversarial attacks, which limits their applicability to real networks. A fundamental problem of these solutions is that they treat and classify ﬂows independently. In contrast, in this paper we argue the importance of focusing on the structural patterns of attacks, by capturing not only the individual ﬂow features, but also the relations between diﬀerent ﬂows (e.g., the source/destination hosts they share). To this end, we use a graph representation that keeps ﬂow records and their relationships, and propose a novel Graph Neural Network ({GNN}) model tailored to process and learn from such graph-structured information. In our evaluation, we ﬁrst show that the proposed {GNN} model achieves state-of-the-art results in the well-known {CIC}-{IDS}2017 dataset. Moreover, we assess the robustness of our solution under two common adversarial attacks, that intentionally modify the packet size and interarrival times to avoid detection. The results show that our model is able to maintain the same level of accuracy as in previous experiments, while state-of-the-art {ML} techniques degrade up to 50\% their accuracy (F1-score) under these attacks. This unprecedented level of robustness is mainly induced by the capability of our {GNN} model to learn ﬂow patterns of attacks structured as graphs.},
+	number = {{arXiv}:2107.14756},
+	publisher = {{arXiv}},
+	author = {Pujol-Perich, David and Suárez-Varela, José and Cabellos-Aparicio, Albert and Barlet-Ros, Pere},
+	date = {2021-07-30},
+	langid = {english},
+	eprinttype = {arxiv},
+	eprint = {2107.14756 [cs]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Cryptography and Security, Computer Science - Machine Learning, Computer Science - Networking and Internet Architecture},
+}
+
+@misc{velickovic_deep_2018,
+      title={Deep Graph Infomax}, 
+      author={Petar Veličković and William Fedus and William L. Hamilton and Pietro Liò and Yoshua Bengio and R Devon Hjelm},
+      year={2018},
+      eprint={1809.10341},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML}
+}
+
+@article{protogerou_graph_2021,
+author = {Protogerou, Aikaterini and Papadopoulos, Stavros and Drosou, Anastasios and Tzovaras, Dimitrios and Refanidis, Ioannis},
+year = {2021},
+month = {03},
+pages = {},
+title = {A graph neural network method for distributed anomaly detection in IoT},
+volume = {12},
+journal = {Evolving Systems},
+doi = {10.1007/s12530-020-09347-0}
+}
